@@ -22,7 +22,7 @@ const Name=()=>{
    <Route  component={Error}/>  
    </Switch>
 
-
+{/* //commit  */}
     </>
   )
 }
