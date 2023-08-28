@@ -4,6 +4,7 @@ import About from './About';
 import Contact from './Contact';
 import './App.css';
 import Error from './Error';
+import Navbar from './Navbar';
 
 const App = () => {
 
@@ -12,16 +13,15 @@ const Name=()=>{
 }
   return (
     <>
-
-  
+  <Navbar/>
    <Switch>
    <Route exact path="/" component={About}/> 
    {/* <Route path="/about" component={About}/> */}
    <Route exact path="/contact" component={Contact}/>  
    <Route path="/contact/name" component={Name}/>  
-   <Route  component={Error}/>  
+   <Route  component={Error}/>     
    </Switch>
-
+{/* dodoododo */}
 {/* //commit  */}
     </>
   )
