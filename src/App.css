@@ -4,3 +4,15 @@
 h1{
   text-align: center;
 }
+body{
+  background-color: aqua;
+}
+
+nav{
+  background-color: brown;
+  padding: 20px;
+  margin-left: 20px;
+}
+.active_class{
+margin-left: 20px;
+}
